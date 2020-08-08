@@ -18,8 +18,8 @@ jobs:
           curl https://rclone.org/install.sh | sudo bash
           wget https://yunpan.zrwnetdisk.club/tj/%E4%B8%8A%E4%BC%A0/rclone-v1.50.2-linux-amd64-21vianet.zip
           unzip rclone-v1.50.2-linux-amd64-21vianet.zip
-          cp rclone /usr/bin/rclone
-          chmod +x /usr/bin/rclone
+          sudo cp rclone /usr/bin/rclone
+          sudo chmod +x /usr/bin/rclone
       - name: Rclone-Config
         env:
           RCLONE_CONFIG: ${{ secrets.RCLONE_CONFIG }}
