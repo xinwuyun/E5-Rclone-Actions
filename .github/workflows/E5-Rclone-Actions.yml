@@ -33,7 +33,7 @@ jobs:
           rclone lsf movie: > "rclone lsf.log"
           rclone ls movie: > "rclone ls.log"
 
-          rclone copy movie:周杰伦 gvgv:周杰伦
+          rclone copy movie:缘之空 gvgv:奥斯卡
           echo "复制完毕"
 
           
