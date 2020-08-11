@@ -38,8 +38,7 @@ jobs:
           rclone lsf movie: > "rclone lsf.log"
           rclone ls movie: > "rclone ls.log"
 
-          rclone copy movie:周杰伦 tongji:wzr/音乐/周杰伦
-          rclone copy movie:穿越火线 tongji:wzr/穿越火线
+          rclone copy movie:Torrent tongji:Torrent
           echo "复制完毕"
 
           
