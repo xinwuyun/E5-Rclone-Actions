@@ -3,7 +3,7 @@
 # 使用方法
 
 ## 设置Rclone配置
-添加名为**RCLONE_CONFIG**的变量  
+在settings-secret里添加名为**RCLONE_CONFIG**的变量  
 值为Rclone的配置，需要你本地先生成配置
 
 ## 三、启用Actions
