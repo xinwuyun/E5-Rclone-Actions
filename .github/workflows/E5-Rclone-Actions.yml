@@ -38,7 +38,7 @@ jobs:
           rclone lsf movie: > "rclone lsf.log"
           rclone ls movie: > "rclone ls.log"
 
-          rclone copy movie:Torrent tongji:Torrent
+          rclone copy movie:无彩限的怪灵世界 tongji:wzr/无彩限的怪灵世界
           echo "复制完毕"
 
           
